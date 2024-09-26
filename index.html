@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            margin: 0;
+        }
+
+        header{
+            width:100%;
+            background-color: #4C4E6E;
+            color: white;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            background-color: #4C54AD;
+        }
+
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        a:hover{
+            color:#4C54AD;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            margin: 1em;
+            margin-top: 0.1em;
+            margin-bottom: 0.1em;
+        }
+
+        nav a:hover{
+            color:black;
+        }
+
+        hgroup{
+            max-width: 50%;
+            margin-top: 20px;
+        }
+        article{
+            display:flex;
+        }
+        
+        aside{
+            width: 35%;
+        }
+
+        section.article{
+            border-right: 1px solid #eeeeee;
+        }
+        figure{
+            margin: 20px;
+        }
+
+        .gidaw{
+            display:flex;
+            width: 100%;
+        }
+
+        .judul{
+            width: 30%;
+            margin: 1em;
+            margin-top: 0;
+        }
+
+        .popular-menu a{
+            display:flex;
+            flex-direction: column;
+        }
+        h4{
+            color:#4C54AD;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="judul">
+            <h1 class="kantin-informatika" style="margin: 0; text-decoration: underline;">
+                Kantin Informatika
+            </h1>
+            <h2 style="margin-top: 0;margin-bottom: 0.5em; text-align: right;">Kantinnya Informatika</h2>
+        </div>
+        <nav>
+            <a href="./index.html">Beranda</a>
+            <a href="#">Daftar Masakan</a>
+            <a href="#">Katering</a>
+            <a href="#">Tentang</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+    <div class="gidaw">
+        <section class="article">
+            <article>
+                <figure>
+                    <img src="https://img-global.cpcdn.com/recipes/5b232fcfdf6f603f/680x482cq70/nasi-gila-foto-resep-utama.jpg" alt="" width="100%">
+                    <figcaption>Nasi Gila</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Nasi Gila</h3>
+                    <h4>Nasi Sosis, Sayur, dan Tempe</h4>
+                    <p>
+                        Nasi goreng gila adalah nasi goreng yang diolah dengan banyak tambahan isi. Seperti mie, daging ayam, seafood, sosis, bakso, hati ampela, dan sayuran. Saking banyaknya sehingga ditambahkan kata gila.
+                    </p>
+                </hgroup>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://img-global.cpcdn.com/recipes/88d4b2dd7d1038e0/680x482cq70/tumis-udang-pedas-foto-resep-utama.jpg" alt="" width="100%">
+                    <figcaption>Udang</figcaption>
+                </figure>
+                <hgroup>
+                    <h3>Udang Tumis</h3>
+                    <h4>Udang di Tumis</h4>
+                    <p>Penumisan adalah teknik memasak cepat dengan menggunakan sedikit minyak dan api besar (panas tinggi), biasanya untuk bumbu.</p>
+                </hgroup>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://cdn.manisdansedap.com/img_thumb_list/20211105142957606154.jpg"  width="100%">
+                    <figure>Nasi Cumi Hitam</figure>
+                </figure>
+                <hgroup>
+                    <h3>Nasi Cumi Hitam</h3>
+                    <H4>Nasi dengan Cumi yang Hitam</H4>
+                    <p>Nasi Cumi Hitam merupakan masakan berbahan dasar cumi yang dimasak bersama tinta hitam dari cumi itu sendiri.</p>
+                </hgroup>
+            </article>
+        </section>
+        <aside>
+            <section class="popular-menu">
+                <h2>Masakan Populer</h2>
+                    <a href="">Nasi Gila</a>
+                    <a href="">Udang Tumis</a>
+                    <a href="">Nasi Cumi Hitam</a>
+            </section>
+            <section class="contact-details">
+                <h2>Kontak</h2>
+                    <p>Kantin di Informatika</p>
+            </section>
+        </aside>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
